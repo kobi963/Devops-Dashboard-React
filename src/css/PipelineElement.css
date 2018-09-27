@@ -1,0 +1,91 @@
+.pipeline-element-container{
+    width: 150px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #325876;
+    display: flex;
+    align-self: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pipeline-element-header-container{
+    width:100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #4C599D;
+}
+
+.pipeline-element-header{
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+.pipeline-element-time{
+    padding: 10px;
+}
+
+.pipeline-element-status{
+    color: white;
+}
+
+.pipeline-element-avg-time{
+    color: white;
+}
+
+.pipeline-element-logs-ref{
+    width:100%;
+    height: auto;
+    font-size: 10px;
+    color: white;
+}
+
+.pipeline-element-status-success-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: forestgreen;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.pipeline-element-status-in-progress-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: cornflowerblue;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.pipeline-element-status-failed-container{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
+}
+
+.text-for-popup{
+    color: black;
+}

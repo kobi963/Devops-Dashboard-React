@@ -1,0 +1,19 @@
+.build-number-failed-container{
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #c80000;
+}
+
+.build-number-success-container{
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
+
+.build-number-text{
+    padding-right: 4px;
+}

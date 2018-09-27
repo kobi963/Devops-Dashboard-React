@@ -1,0 +1,41 @@
+.member-and-logout{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.member-container{
+    width:30%;
+}
+
+.member-table{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.member-name{
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.member-separator{
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.member-job-title{
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+}
+
+.logout-container{
+}
+
+.logout-btn{
+    color: white;
+    font-size: 18px;
+}

@@ -1,0 +1,102 @@
+{
+  "_class" : "hudson.model.FreeStyleProject",
+  "actions" : [
+    {
+      
+    },
+    {
+      
+    },
+    {
+      
+    },
+    {
+      "_class" : "com.cloudbees.plugins.credentials.ViewCredentialsAction"
+    }
+  ],
+  "description" : "",
+  "displayName" : "DevDashboard",
+  "displayNameOrNull" : null,
+  "fullDisplayName" : "DevDashboard",
+  "fullName" : "DevDashboard",
+  "name" : "DevDashboard",
+  "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/",
+  "buildable" : true,
+  "builds" : [
+    {
+      "_class" : "hudson.model.FreeStyleBuild",
+      "number" : 4,
+      "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/4/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleBuild",
+      "number" : 3,
+      "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/3/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleBuild",
+      "number" : 2,
+      "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/2/"
+    },
+    {
+      "_class" : "hudson.model.FreeStyleBuild",
+      "number" : 1,
+      "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/1/"
+    }
+  ],
+  "color" : "blue",
+  "firstBuild" : {
+    "_class" : "hudson.model.FreeStyleBuild",
+    "number" : 1,
+    "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/1/"
+  },
+  "healthReport" : [
+    {
+      "description" : "Build stability: No recent builds failed.",
+      "iconClassName" : "icon-health-80plus",
+      "iconUrl" : "health-80plus.png",
+      "score" : 100
+    }
+  ],
+  "inQueue" : false,
+  "keepDependencies" : false,
+  "lastBuild" : {
+    "_class" : "hudson.model.FreeStyleBuild",
+    "number" : 4,
+    "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/4/"
+  },
+  "lastCompletedBuild" : {
+    "_class" : "hudson.model.FreeStyleBuild",
+    "number" : 4,
+    "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/4/"
+  },
+  "lastFailedBuild" : null,
+  "lastStableBuild" : {
+    "_class" : "hudson.model.FreeStyleBuild",
+    "number" : 4,
+    "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/4/"
+  },
+  "lastSuccessfulBuild" : {
+    "_class" : "hudson.model.FreeStyleBuild",
+    "number" : 4,
+    "url" : "http://ec2-52-36-106-204.us-west-2.compute.amazonaws.com:8080/job/DevDashboard/4/"
+  },
+  "lastUnstableBuild" : null,
+  "lastUnsuccessfulBuild" : null,
+  "nextBuildNumber" : 5,
+  "property" : [
+    
+  ],
+  "queueItem" : null,
+  "concurrentBuild" : false,
+  "downstreamProjects" : [
+    
+  ],
+  "labelExpression" : null,
+  "scm" : {
+    "_class" : "hudson.plugins.git.GitSCM"
+  },
+  "upstreamProjects" : [
+    
+  ]
+}

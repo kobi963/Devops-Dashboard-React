@@ -1,0 +1,24 @@
+.project-panel-container{
+    width: 85%;
+    padding: 10px;
+    background-color: #070719;
+}
+
+.project-tools-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.project-searchBar{
+}
+
+.project-search-input{
+}
+
+.project-searchBar-btn{
+    color:white;
+    padding-left: 15px;
+}

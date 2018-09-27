@@ -1,0 +1,23 @@
+.build-history-container{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #666666;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.build-history-header{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #4C599D;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.build-number-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

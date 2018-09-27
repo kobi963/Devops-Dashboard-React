@@ -1,0 +1,35 @@
+.statistics-element-container{
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: #18181F;
+}
+
+.statistics-element{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics-element-header-container{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #211F2E;
+}
+
+.statistics-element-header{
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+
+.statistics-element-body-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
