@@ -32,6 +32,7 @@ class PipelineElement extends Component {
             duration: this.props.duration
         })
     }
+
     getPipelineElementStyole(status){
         if(status === BuildStatus.success){
             return 'pipeline-element-status-success-container';

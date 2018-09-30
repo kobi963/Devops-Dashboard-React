@@ -1,14 +1,23 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import '../css/MemberInfoAndControl.css'
+import '../css/MemberInfoAndControl.css';
+import Configurations from './Configurations';
 
 class MemberInfoAndControl extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            name: this.props.name,
-            jobTitle: this.props.jobTitle
+            name: props.name,
+            jobTitle: props.jobTitle,
+            toast: props.toast,
+            config: props.config
         }
+    }
+
+    componentWillReceiveProps(props){
+        this.setState({
+            config: props.config
+        })
     }
 
     render() {
@@ -28,8 +37,18 @@ class MemberInfoAndControl extends Component {
                         </div>
                     </div>
                 </div>
-                <div className='logout-container'>
-                    <button className='logout-btn'>logout</button>
+                <div className='logout-container-and-configurations'>
+                    <div className='configurations-container'>
+                        <div className='configuration-button'>
+                            <Configurations toast={this.state.toast} config={this.state.config}/>
+                        </div>
+                    </div>
+                    <div className='logout-btn'>
+                        |
+                    </div>
+                    <div className='logout-container'>
+                        <button className='logout-btn'>Logout</button>
+                    </div>
                 </div>
 
             </div>

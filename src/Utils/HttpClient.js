@@ -41,8 +41,8 @@ export default class HttpClient {
         return this;
     }
 
-    resetURL(){
-        this._urlWithParams = this._url;
+    resetURL(projectName){
+        this._urlWithParams = this._url.formatString(projectName);
     }
 
     addParams(params){
@@ -66,7 +66,8 @@ export default class HttpClient {
     }
 
 
-    get(noCors) {
+    get() {
+        console.log(this._urlWithParams);
         this.getMethod.headers = this._headers;
         return this.fetchContent(this.getMethod);
     }

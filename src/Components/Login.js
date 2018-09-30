@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../css/Login.css";
 import img from "../images/devops.png"
-import ApplicationManager from "../Managers/ApplicationManager/ApplicationManager"
+// import ApplicationManager from "../Managers/ApplicationManager/ApplicationManager"
 
 
 class Login extends Component {

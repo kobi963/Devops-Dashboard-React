@@ -3,10 +3,15 @@
     height: 220px;
 }
 
+
 .pipeline-list{
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
 }
 
 .pipeline-unable-to-load{

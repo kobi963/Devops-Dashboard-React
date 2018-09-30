@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import '../css/BuildHistoryElement.css'
+import {BuildStatus} from "../Utils/AppEnums";
 
 class BuildHistoryElement extends Component {
     constructor(props) {
@@ -9,9 +10,24 @@ class BuildHistoryElement extends Component {
             projectName: props.projectName,
             buildNumber: props.buildNumber,
             callback: props.callback,
-            buildNumberText: props.buildNumberText ? this.props.buildNumberText : 'Build: #',
-            className: props.isSuccess ? 'build-number-success-container' : 'build-number-failed-container'
+            buildNumberText: props.buildNumberText ? props.buildNumberText : '#',
+            className: this.getClassName(props.status)
         }
+    }
+
+    getClassName(status){
+        switch(status) {
+            case BuildStatus.success:
+                return 'build-number-success-container';
+            case BuildStatus.failed:
+                return 'build-number-failed-container';
+            case BuildStatus.aborted:
+                return 'build-number-failed-container';
+            case BuildStatus.inProgress:
+                return 'build-number-in-progress-container';
+
+        }
+
     }
 
     render() {

@@ -1,0 +1,66 @@
+.left-close-button{
+    font-size: 30px;
+}
+.configurations-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    padding-left: 10px;
+    font-size: 25px;
+    color: black;
+    align-self: center;
+}
+.body-container{
+
+}
+
+.element-container{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element-disc{
+}
+
+.element-input{
+    width: 500px;
+    background-image: linear-gradient(to right, #000, #000);
+    background-position: 5px calc(100% - 5px);
+    background-size: calc(100% - 10px) 1.5px;
+    background-repeat: no-repeat;
+    padding: 10px;
+}
+
+.microsevice-input{
+
+}
+
+.button-container{
+    align-self: center;
+}
+
+.button{
+    background-color: #4158d0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    font-size: 18px;
+    color: white;
+    width: 100px;
+}
+
+.trigger-button{
+    color: white;
+    padding-right: 4px;
+    padding-left: 4px;
+    font-size: 18px;
+}

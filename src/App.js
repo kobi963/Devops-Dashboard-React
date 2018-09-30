@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MainScreen from "./Components/MainScreen";
 
-import Login from "./Components/Login";
+// import Login from "./Components/Login";
 
 
 class App extends Component {

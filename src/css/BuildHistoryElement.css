@@ -6,6 +6,14 @@
     background-color: #c80000;
 }
 
+.build-number-in-progress-container{
+    padding: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
 .build-number-success-container{
     padding: 5px;
     margin-top: 10px;

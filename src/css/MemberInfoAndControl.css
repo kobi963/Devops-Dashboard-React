@@ -5,11 +5,9 @@
 }
 
 .member-container{
-    width:30%;
 }
 
 .member-table{
-    width: 100%;
     display: flex;
     align-items: flex-start;
 }
@@ -32,10 +30,21 @@
     padding-left: 4px;
 }
 
+
+
+.logout-container-and-configurations{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .logout-container{
 }
 
 .logout-btn{
+    padding-right: 5px;
     color: white;
     font-size: 18px;
 }

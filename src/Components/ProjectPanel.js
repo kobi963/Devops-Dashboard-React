@@ -6,7 +6,9 @@ class ProjectPanel extends Component {
         super(props);
         this.state = {
             projectList: props.projectList,
-            callback: props.callback
+            callback: props.callback,
+            buildNow: props.buildNow,
+            abortBuild: props.abortBuild
         };
     }
 
@@ -22,6 +24,10 @@ class ProjectPanel extends Component {
                             <select onChange={this.change}>
                                 {this.getOptions()}
                             </select>
+                        </div>
+                        <div className={'buttons-container'}>
+                            <button className='build-now-button' onClick={this.state.buildNow}>Build Now</button>
+                            <button className='abort-build-button' onClick={this.state.abortBuild}>Abort Build</button>
                         </div>
                         <div className='project-searchBar-container'>
                             <div className={'project-searchBar'}>

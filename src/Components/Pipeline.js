@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import PipelineElement from "./PipelineElement";
 import '../css/Pipeline.css'
+import {applicationManager} from "../Managers/ApplicationManager/ApplicationManager";
 
 class Pipeline extends Component {
     constructor(props) {
@@ -17,9 +18,9 @@ class Pipeline extends Component {
         return <PipelineElement
             name={element.name}
             status={element.status}
-            duration={element.durationMillis}
-            errorText={element.error ? `${element.error.type} ${element.error.massage}` : ''}
-            key={`${element.name}.${this.state.buildID}`}/>;
+            duration={applicationManager.msToTime(element.durationMillis)}
+            errorText={element.error ? `${element.error.type} ${element.error.message}` : ''}
+            key={`${element.name}.${this.state.buildID}.${element.status}`}/>;
     }
 
     componentWillReceiveProps(props){

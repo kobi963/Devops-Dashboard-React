@@ -6,6 +6,7 @@ class SessionManager {
             jobTitle: null
         };
         this.projectList = null;
+        this.projectName = null;
     };
 
 }

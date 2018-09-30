@@ -22,9 +22,9 @@ class BuildHistory extends Component {
 
     renderBuildHistoryList(buildHistoryElement, index){
         let temp = <BuildHistoryElement
-            isSuccess={buildHistoryElement.buildStatus === BuildStatus.success}
+            status={buildHistoryElement.buildStatus}
             buildNumber={buildHistoryElement.buildNumber}
-            key={`${this.state.projectName}.${buildHistoryElement.buildNumber}`}
+            key={`${this.state.projectName}.${buildHistoryElement.buildNumber}.${buildHistoryElement.buildStatus}`}
             callback={this.props.callback}
         />;
         return temp
