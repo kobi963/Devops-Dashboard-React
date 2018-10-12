@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../css/MemberInfoAndControl.css';
 import Configurations from './Configurations';
+import Tabs from "./Tabs";
 
 class MemberInfoAndControl extends Component {
     constructor(props) {
@@ -10,14 +11,19 @@ class MemberInfoAndControl extends Component {
             name: props.name,
             jobTitle: props.jobTitle,
             toast: props.toast,
-            config: props.config
-        }
+            config: props.config,
+        };
     }
 
-    componentWillReceiveProps(props){
-        this.setState({
-            config: props.config
+    async componentWillReceiveProps(props){
+        console.log(props.logoutMainScreen);
+        await this.setState({
+            config: props.config,
         })
+    }
+
+    logoutMemberInfroAndControl = () =>{
+        this.props.logoutMainScreen();
     }
 
     render() {
@@ -47,7 +53,7 @@ class MemberInfoAndControl extends Component {
                         |
                     </div>
                     <div className='logout-container'>
-                        <button className='logout-btn'>Logout</button>
+                        <button className='logout-btn' onClick={this.logoutMemberInfroAndControl}>Logout</button>
                     </div>
                 </div>
 

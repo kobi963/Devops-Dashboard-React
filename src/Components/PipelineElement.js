@@ -33,7 +33,7 @@ class PipelineElement extends Component {
         })
     }
 
-    getPipelineElementStyole(status){
+    getPipelineElementStyle(status){
         if(status === BuildStatus.success){
             return 'pipeline-element-status-success-container';
         }else if(status === BuildStatus.inProgress){
@@ -54,9 +54,9 @@ class PipelineElement extends Component {
                     <header className='pipeline-element-header'>{this.state.name}</header>
                 </div>
                 <div className='pipeline-element-time'>{this.state.duration}</div>
-                <div className={this.getPipelineElementStyole(this.state.status)}>
+                <div className={this.getPipelineElementStyle(this.state.status)}>
                     <div className='pipeline-element-status'>
-                        {this.state.status}
+                        <a>{this.state.status}</a>
                     </div>
                     <div className='pipeline-element-logs-ref'>
                         {this.state.status === BuildStatus.failed && Popup(this.getErrorText())}

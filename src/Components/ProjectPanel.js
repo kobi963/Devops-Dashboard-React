@@ -18,7 +18,7 @@ class ProjectPanel extends Component {
 
     render() {
         return (
-                <div className='project-panel-container'>
+
                     <div className='project-tools-container'>
                         <div className='project-list-container'>
                             <select onChange={this.change}>
@@ -29,16 +29,8 @@ class ProjectPanel extends Component {
                             <button className='build-now-button' onClick={this.state.buildNow}>Build Now</button>
                             <button className='abort-build-button' onClick={this.state.abortBuild}>Abort Build</button>
                         </div>
-                        <div className='project-searchBar-container'>
-                            <div className={'project-searchBar'}>
-                                <input className='project-searchBar-input' type="search" id="site-search" name="q"
-                                       placeholder="Search the site..."
-                                       aria-label="Search through site content"/>
-                                <button className='project-searchBar-btn'>Search</button>
-                            </div>
-                        </div>
                     </div>
-                </div>
+
         );
     }
 

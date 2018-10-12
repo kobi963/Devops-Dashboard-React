@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "../css/Login.css";
 import img from "../images/devops.png"
+import {applicationManager} from "../Managers/ApplicationManager/ApplicationManager";
 // import ApplicationManager from "../Managers/ApplicationManager/ApplicationManager"
 
 
@@ -24,9 +25,36 @@ class Login extends Component {
         });
     };
 
+    createUser = event => {
+        if(this.validateForm()){
+            applicationManager.createUserClient.resetURL();
+            applicationManager.createUserClient.addParams({username:this.state.email, password: this.state.password});
+            applicationManager.createUserClient.get().then(response =>{
+                if(response.status === "ok"){
+                    console.log(response);
+                    this.props.toast.success(`${response.username} added successfully`);
+                }else{
+                    this.props.toast.error("error while creating user");
+                }
+            })
+        }else{
+            this.props.toast.error("All fields are required");
+        }
+    };
+
     handleSubmit = event => {
         if(this.validateForm()){
-            this.props.callback(true,{name: this.state.email, jobTitle: 'Developer'});
+            applicationManager.LoginClient.resetURL();
+            applicationManager.LoginClient.addParams({username:this.state.email, password: this.state.password});
+            applicationManager.LoginClient.get().then((response=>{
+                if(response.status === "ok"){
+                    this.props.callback(true,{name: this.state.email, jobTitle: 'Developer'});
+                }else{
+                    this.props.toast.error("invalid username or password");
+                }
+            }))
+        }else{
+            this.props.toast.error("All fields are required");
         }
     };
 
@@ -61,6 +89,11 @@ class Login extends Component {
                             <div className="container-login100-form-btn" >
                                 <button className="login100-form-btn" type='button' onClick={this.handleSubmit}>
                                     Login
+                                </button>
+                            </div>
+                            <div className="container-login100-form-btn" >
+                                <button className="login100-form-btn" type='button' onClick={this.createUser}>
+                                    Create
                                 </button>
                             </div>
 

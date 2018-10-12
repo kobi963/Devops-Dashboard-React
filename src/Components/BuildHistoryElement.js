@@ -32,10 +32,10 @@ class BuildHistoryElement extends Component {
 
     render() {
         return (
-            <div className={this.state.className} onClick={()=>{this.state.callback(this.state.buildNumber)}}>
+            <button className={this.state.className} onClick={()=>{this.state.callback(this.state.buildNumber)}}>
                 <div className='build-number-text'>{this.state.buildNumberText}</div>
-                <div className='build-number'>{this.state.buildNumber}</div>
-            </div>
+                <div className='build-number-text'>{this.state.buildNumber}</div>
+            </button>
         );
     }
 

@@ -67,7 +67,6 @@ export default class HttpClient {
 
 
     get() {
-        console.log(this._urlWithParams);
         this.getMethod.headers = this._headers;
         return this.fetchContent(this.getMethod);
     }

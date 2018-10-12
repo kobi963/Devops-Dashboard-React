@@ -1,22 +1,17 @@
 .tabs-container{
-    width: 100%;
     display: flex;
     align-content: center;
     justify-content: center;
-    padding-bottom: 10px;
 }
 
 .microservice-container{
-    background-color: #303035;
-    padding: 10px 50px 10px 50px;
-    border: 1px solid #666666;
 }
 
 .project-domain-container{
-    padding: 10px 50px 10px 50px;
-    border: 1px solid #666666;
 }
 
 .microservice-header{
-    font-size: 30px;
+    font-size: 20px;
+    color: black;
+    padding: 4px;
 }

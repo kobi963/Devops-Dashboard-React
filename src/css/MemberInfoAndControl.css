@@ -9,25 +9,28 @@
 
 .member-table{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 13px;
 }
 
 .member-name{
     color: white;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .member-separator{
     color: white;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .member-job-title{
     color: white;
-    padding-right: 4px;
-    padding-left: 4px;
+    padding-right: 2px;
+    padding-left: 2px;
+
 }
 
 
@@ -37,14 +40,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    font-size: 13px;
+
 }
 
-
 .logout-container{
+
 }
 
 .logout-btn{
-    padding-right: 5px;
     color: white;
-    font-size: 18px;
+    font-size: 13px;
+    padding-right: 2px;
+    padding-left: 2px;
 }

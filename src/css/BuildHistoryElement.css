@@ -1,27 +1,31 @@
 .build-number-failed-container{
-    padding: 5px;
-    margin-top: 10px;
+    padding: 3px;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
-    background-color: #c80000;
+    background-color: #E7717D;
+    border-radius: 4px;
 }
 
 .build-number-in-progress-container{
-    padding: 5px;
-    margin-top: 10px;
+    padding: 3px;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
-    background-color: cornflowerblue;
+    background-color: #4ea2ed;
+    border-radius: 4px;
 }
 
 .build-number-success-container{
-    padding: 5px;
-    margin-top: 10px;
+    padding: 3px;
+    margin-top: 4px;
     display: flex;
     justify-content: center;
-    background-color: green;
+    background-color: #99bc65;
+    border-radius: 4px;
 }
 
 .build-number-text{
+    font-size: 17px;
     padding-right: 4px;
 }

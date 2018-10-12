@@ -20,6 +20,9 @@ class ApplicationManager {
                 'Access-Control-Request-Method': 'POST',
                 'Access-Control-Request-Headers': 'Content-Type'
             }));
+            this.DomainClient = new HttpClient(5000, this.preferencesManager.getDomainURL(), null, new Headers());
+            this.LoginClient = new HttpClient(5000, this.preferencesManager.getLoginURL(), null, new Headers());
+            this.createUserClient = new HttpClient(5000, this.preferencesManager.getCreateUserURL(), null, new Headers());
             this.sessionManager = new SessionManager();
             this.addFormatFunctionToStringPrototype();
             global.instance = this;

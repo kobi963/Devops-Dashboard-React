@@ -14,6 +14,9 @@ export class PreferencesManager {
         this._REQUEST_TRIGGER_BUILD = '/getTriggerBuild/{0}';
         this._REQUEST_ABORT_BUILD = '/getAbortBuild/{0}';
         this._REQUEST_NEW_BUILD = '/getLastBuild/{0}';
+        this._REQUEST_DOMAIN = '/getDomainScreen';
+        this._REQUEST_LOGIN = '/login';
+        this._REQUEST_CREATE_USER_CLIENT = '/createUser';
         this.getConfigurationsClient = new HttpClient(4000, this.env._envConfig.baseURL + this._REQUEST_GET_CONFIGURATIONS, this.getAuthorization(), new Headers());
         this.updateConfigurationsClient = new HttpClient(4000, this.env._envConfig.baseURL + this._REQUEST_UPDATE_CONFIGURATIONS, this.getAuthorization(), new Headers());
     }
@@ -60,5 +63,17 @@ export class PreferencesManager {
 
     getAbortBuildURL(){
         return this.env._envConfig.baseURL + this._REQUEST_ABORT_BUILD;
+    }
+
+    getDomainURL(){
+        return this.env._envConfig.baseURL + this._REQUEST_DOMAIN;
+    }
+
+    getLoginURL(){
+        return this.env._envConfig.baseURL + this._REQUEST_LOGIN;
+    }
+
+    getCreateUserURL(){
+        return this.env._envConfig.baseURL + this._REQUEST_CREATE_USER_CLIENT;
     }
 }

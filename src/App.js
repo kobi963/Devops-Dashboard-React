@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import MainScreen from "./Components/MainScreen";
-
-// import Login from "./Components/Login";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer, toast } from 'react-toastify';
+import Login from "./Components/Login";
 
 
 class App extends Component {
@@ -13,21 +14,27 @@ class App extends Component {
         }
     }
 
-    async toMainScreen(value, user){
-        await this.setState({
+    toMainScreen = (value, user) =>{
+        this.setState({
             mainScreen: value,
             user: user,
 
         })
     };
 
-    render() {
-        let user = {name: 'Srulik',jobTitle: 'Likes pop music'};
+    toLoginScreen = () =>{
+        this.setState({
+            mainScreen: false,
+        })
+    };
 
+    render() {
         return (
             <div style={styles.app}>
-                {/*{this.state.mainScreen ? <MainScreen user={this.state.user}/> : <Login callback={this.toMainScreen.bind(this)}/>}*/}
-                <MainScreen user={user}/>
+                <ToastContainer autoClose={2000}/>
+                {this.state.mainScreen ?
+                    <MainScreen user={this.state.user} toast={toast} logout={this.toLoginScreen.bind(this)}/> :
+                    <Login callback={this.toMainScreen} toast={toast}/>}
             </div>
         );
     }

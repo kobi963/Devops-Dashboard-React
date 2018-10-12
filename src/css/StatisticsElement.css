@@ -2,7 +2,8 @@
     margin: 10px;
     width: 250px;
     height: 250px;
-    background-color: #18181F;
+    background-color: #cbc2b9;
+    border-radius: 15px;
 }
 
 .statistics-element{
@@ -17,13 +18,15 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: #211F2E;
+    background-color: #9c8175;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 .statistics-element-header{
     padding-left: 10px;
     font-size: 25px;
-    color: white;
+    color: black;
 }
 
 .statistics-element-body-container{

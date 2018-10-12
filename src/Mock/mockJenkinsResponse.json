@@ -1,356 +1,44 @@
 {
   "projectList": {
-    "DevDashboard": {
-      "buildList": [
-        {
-          "buildNumber": 17,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 16,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 15,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 14,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 13,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 12,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 11,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 10,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 9,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 8,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 7,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 6,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 5,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 4,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 3,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 2,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 1,
-          "buildStatus": "FAILURE"
-        }
-      ],
-      "projectName": "DevDashboard",
+    "DevopsDashboard": {
+      "projectName": "DevopsDashboard",
       "sonarQube": {
         "m_CodeCoverage": 0,
-        "m_CodeSmells": 3,
-        "m_SonarRefURL": "https://sonarcloud.io/dashboard?id=meori20_dashboardTests"
+        "m_CodeSmells": 0
+      },
+      "gitDataDM": {}
+    },
+    "iOS": {
+      "projectName": "iOS",
+      "sonarQube": {
+        "m_CodeCoverage": 0,
+        "m_CodeSmells": 0
+      },
+      "gitDataDM": {
+        "topCommiters": [],
+        "lastCommitString": "https://api.github.com/repos/kobi963/iOS-DevopsDashboard/commits/b00e713830e002131d29dacb078830c786f862ac"
+      }
+    },
+    "Android": {
+      "projectName": "Android",
+      "sonarQube": {
+        "m_CodeCoverage": 0,
+        "m_CodeSmells": 0
+      },
+      "gitDataDM": {
+        "topCommiters": [
+          "kobi963"
+        ],
+        "lastCommitString": "https://api.github.com/repos/kobi963/Android-DevopsDashboard/commits/490521d83314100996454ac589ed06aa765e4e96"
       }
     },
     "pipeline-example": {
-      "buildList": [
-        {
-          "buildNumber": 66,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 65,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 64,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 63,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 62,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 61,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 60,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 59,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 58,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 57,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 56,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 55,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 54,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 53,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 52,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 51,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 50,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 49,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 48,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 47,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 46,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 45,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 44,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 43,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 42,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 41,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 40,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 39,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 38,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 37,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 36,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 35,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 34,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 33,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 32,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 31,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 30,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 29,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 28,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 27,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 26,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 25,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 24,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 23,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 22,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 21,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 20,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 19,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 18,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 17,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 16,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 15,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 14,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 13,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 12,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 11,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 10,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 9,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 8,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 7,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 6,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 5,
-          "buildStatus": "SUCCESS"
-        },
-        {
-          "buildNumber": 4,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 3,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 2,
-          "buildStatus": "FAILURE"
-        },
-        {
-          "buildNumber": 1,
-          "buildStatus": "FAILURE"
-        }
-      ],
       "projectName": "pipeline-example",
       "sonarQube": {
         "m_CodeCoverage": 0,
-        "m_CodeSmells": 0,
-        "m_SonarRefURL": null
-      }
+        "m_CodeSmells": 0
+      },
+      "gitDataDM": {}
     }
   }
 }

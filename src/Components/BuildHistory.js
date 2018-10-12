@@ -32,7 +32,7 @@ class BuildHistory extends Component {
 
     getHistoryList(){
         if(this.state.buildHistoryList){
-            return this.state.buildHistoryList.slice(0,10).map((buildElement, index) => {
+            return this.state.buildHistoryList.slice(0,12).map((buildElement, index) => {
                 return this.renderBuildHistoryList(buildElement, index);
             })
         }

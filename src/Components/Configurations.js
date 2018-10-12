@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Popup from "reactjs-popup";
 import "../css/Configurations.css"
+import '../css/MemberInfoAndControl.css';
 import {applicationManager} from "../Managers/ApplicationManager/ApplicationManager";
 
 
@@ -48,7 +49,7 @@ class Configurations extends Component {
 
     configurations = () => {
         return(
-            <Popup trigger={<button className="trigger-button"> Settings </button>} modal>
+            <Popup trigger={<button className="logout-btn"> Settings </button>} modal>
                 {close => (
                     <div>
                         <a className="left-close-button" onClick={close}>

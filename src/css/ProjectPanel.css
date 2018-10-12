@@ -1,12 +1,28 @@
 .project-panel-container{
-    width: 85%;
+    width: 100%;
     padding: 10px;
-    background-color: #070719;
+    background-color: #a89f99;
+    border-radius: 15px;
+
+}
+
+.project-panel-container-domain{
+    width: 100%;
+    padding: 10px;
+    background-color: #a89f99;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
 }
 
 .project-tools-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.project-list-container{
+    display: flex;
+    flex: 1;
 }
 
 .buttons-container{
@@ -16,13 +32,13 @@
 .build-now-button{
     padding: 10px;
     margin-right: 10px;
-    background-color: #4158d0;
+    background-color: #cbc2b9;
     border-radius: 5px;
 }
 
 .abort-build-button{
     padding: 10px;
-    background-color: #4158d0;
+    background-color: #cbc2b9;
     border-radius: 5px;
 }
 
