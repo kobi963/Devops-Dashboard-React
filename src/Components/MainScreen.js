@@ -32,7 +32,6 @@ class MainScreen extends Component {
     };
 
     changeToDomain(){
-        console.log(this.state.tabsMicroservice);
         this.setState({
             tabsMicroservice: false
         })

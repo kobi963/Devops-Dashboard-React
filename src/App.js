@@ -14,6 +14,13 @@ class App extends Component {
         }
     }
 
+    componentDidMount(){
+        let username = localStorage.getItem('username');
+        if(username){
+            this.toMainScreen(true, {name: username, jobTitle: 'Developer'})
+        }
+    }
+
     toMainScreen = (value, user) =>{
         this.setState({
             mainScreen: value,
@@ -23,6 +30,7 @@ class App extends Component {
     };
 
     toLoginScreen = () =>{
+        localStorage.setItem('username', '');
         this.setState({
             mainScreen: false,
         })
@@ -40,15 +48,11 @@ class App extends Component {
     }
 }
 
-
-
 let styles = {
   app: {
       alignItems: 'center',
       justifyContent: 'center',
-      flex: 1,
-      height: 600
-
+      flex: 1
   }
 };
 

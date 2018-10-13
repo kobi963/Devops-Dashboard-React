@@ -31,7 +31,6 @@ class Login extends Component {
             applicationManager.createUserClient.addParams({username:this.state.email, password: this.state.password});
             applicationManager.createUserClient.get().then(response =>{
                 if(response.status === "ok"){
-                    console.log(response);
                     this.props.toast.success(`${response.username} added successfully`);
                 }else{
                     this.props.toast.error("error while creating user");
@@ -48,6 +47,9 @@ class Login extends Component {
             applicationManager.LoginClient.addParams({username:this.state.email, password: this.state.password});
             applicationManager.LoginClient.get().then((response=>{
                 if(response.status === "ok"){
+                    localStorage.setItem('username', this.state.email);
+                    let username = localStorage.getItem('userName');
+                    console.log(username);
                     this.props.callback(true,{name: this.state.email, jobTitle: 'Developer'});
                 }else{
                     this.props.toast.error("invalid username or password");

@@ -16,7 +16,6 @@ class MemberInfoAndControl extends Component {
     }
 
     async componentWillReceiveProps(props){
-        console.log(props.logoutMainScreen);
         await this.setState({
             config: props.config,
         })
@@ -65,6 +64,6 @@ class MemberInfoAndControl extends Component {
 MemberInfoAndControl.propTypes = {
     name: PropTypes.string,
     jobTitle: PropTypes.string
-}
+};
 
 export default MemberInfoAndControl;

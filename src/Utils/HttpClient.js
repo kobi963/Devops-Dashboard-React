@@ -59,7 +59,6 @@ export default class HttpClient {
 
     post(data) {
         this._headers.append(this.CONTENT_TYPE_HEADER,'application/json');
-        this._headers.append("Accept",'application/json');
         this.postMethod.body = JSON.stringify(data);
         this.postMethod.headers = this._headers;
         return this.fetchContent(this.postMethod);

@@ -56,7 +56,7 @@ class PipelineElement extends Component {
                 <div className='pipeline-element-time'>{this.state.duration}</div>
                 <div className={this.getPipelineElementStyle(this.state.status)}>
                     <div className='pipeline-element-status'>
-                        <a>{this.state.status}</a>
+                        {this.state.status}
                     </div>
                     <div className='pipeline-element-logs-ref'>
                         {this.state.status === BuildStatus.failed && Popup(this.getErrorText())}

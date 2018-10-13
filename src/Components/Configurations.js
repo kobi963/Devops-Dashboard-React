@@ -115,7 +115,6 @@ class Configurations extends Component {
                                 <button
                                     className="button"
                                     onClick={() => {
-                                        console.log('modal closed ');
                                         close()
                                     }}
                                 >

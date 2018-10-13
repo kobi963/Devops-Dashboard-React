@@ -92,7 +92,6 @@ class Microsevice extends Component {
 
     handleGetNewBuildResponse(project,data){
         if(this.checkIfPipelineEnable(project)){
-            console.log("updating");
             this.handleBuildHistoryFromAllBuilds(data);
             this.setState({
                 allBuilds: data,
@@ -121,6 +120,7 @@ class Microsevice extends Component {
 
     getPipelineForBuildHistoryElement(id){
         if(this.state.allBuilds){
+            console.log(this.state.allBuilds);
             this.state.allBuilds.forEach(build =>{
                 if(build.id === String(id)){
                     this.setState({
@@ -141,7 +141,6 @@ class Microsevice extends Component {
     async displayBuildHistory(projectName){
         applicationManager.sessionManager.projectName = projectName;
         await this.getLastBuild(applicationManager.sessionManager.projectName);
-        console.log(this.state.projectList[projectName].gitDataDM, applicationManager.sessionManager.projectList[projectName].gitDataDM);
         await this.setState({
             projectName: projectName,
             buildHistory: applicationManager.sessionManager.projectList[projectName].buildList,

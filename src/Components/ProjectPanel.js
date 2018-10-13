@@ -18,18 +18,17 @@ class ProjectPanel extends Component {
 
     render() {
         return (
-
-                    <div className='project-tools-container'>
-                        <div className='project-list-container'>
-                            <select onChange={this.change}>
-                                {this.getOptions()}
-                            </select>
-                        </div>
-                        <div className={'buttons-container'}>
-                            <button className='build-now-button' onClick={this.state.buildNow}>Build Now</button>
-                            <button className='abort-build-button' onClick={this.state.abortBuild}>Abort Build</button>
-                        </div>
-                    </div>
+            <div className='project-tools-container'>
+                <div className='project-list-container'>
+                    <select onChange={this.change}>
+                        {this.getOptions()}
+                    </select>
+                </div>
+                <div className={'buttons-container'}>
+                    <button className='build-now-button' onClick={this.state.buildNow}>Build Now</button>
+                    <button className='abort-build-button' onClick={this.state.abortBuild}>Abort Build</button>
+                </div>
+            </div>
 
         );
     }

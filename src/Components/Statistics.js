@@ -12,7 +12,6 @@ class Statistics extends Component {
     }
 
     componentWillReceiveProps(props){
-        console.log(props);
         this.setState({
             sonarQube: props.sonarQube,
             git: props.git
@@ -74,7 +73,6 @@ class Statistics extends Component {
 
 
     render() {
-        console.log("test git" + JSON.stringify(this.state.git));
         return (
             <div className='statistics-container'>
                 {!this.isEmpty(this.state.sonarQube) ? <StatisticsElement header={'Sonar'} body={this.getSonarText()} key={`${this.state.sonarQube.m_SonarRefURL}`}/> : ""}
