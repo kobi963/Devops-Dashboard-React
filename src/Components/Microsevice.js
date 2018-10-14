@@ -180,7 +180,7 @@ class Microsevice extends Component {
 
     render(){
         return (
-            <div className='main-panel -container'>
+            <div className='main-panel-container'>
                 <BuildHistory
                     buildHistoryList={this.state.buildHistory}
                     projectName={this.state.projectName}

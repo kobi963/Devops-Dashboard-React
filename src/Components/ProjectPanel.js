@@ -26,6 +26,7 @@ class ProjectPanel extends Component {
                 </div>
                 <div className={'buttons-container'}>
                     <button className='build-now-button' onClick={this.state.buildNow}>Build Now</button>
+                    <div className='build-now-button'> | </div>
                     <button className='abort-build-button' onClick={this.state.abortBuild}>Abort Build</button>
                 </div>
             </div>
