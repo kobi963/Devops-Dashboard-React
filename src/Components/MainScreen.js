@@ -45,24 +45,20 @@ class MainScreen extends Component {
     render() {
         return (
             <div className="limiter">
-                <div className="container-main-screen100">
-                    <div className="wrap-main-screen100">
-                        <MemberInfoAndControl
-                            name={this.state.user.name}
-                            jobTitle={this.state.user.jobTitle}
-                            toast={this.props.toast}
-                            config={this.state.config}
-                            logoutMainScreen={this.logoutMainScreen.bind(this)}
-                        />
-                        <Tabs
-                            micro={this.changeToMicroservice.bind(this)}
-                            domain={this.changeToDomain.bind(this)}
-                        />
-                        {
-                            this.state.tabsMicroservice ? <Microsevice toast={this.props.toast}/> : <Domain/>
-                        }
-                    </div>
-                </div>
+                <MemberInfoAndControl
+                    name={this.state.user.name}
+                    jobTitle={this.state.user.jobTitle}
+                    toast={this.props.toast}
+                    config={this.state.config}
+                    logoutMainScreen={this.logoutMainScreen.bind(this)}
+                />
+                <Tabs
+                    micro={this.changeToMicroservice.bind(this)}
+                    domain={this.changeToDomain.bind(this)}
+                />
+                {
+                    this.state.tabsMicroservice ? <Microsevice toast={this.props.toast}/> : <Domain/>
+                }
             </div>
         );
     }

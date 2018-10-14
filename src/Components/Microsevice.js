@@ -16,7 +16,9 @@ class Microsevice extends Component {
         this.state = {};
         this.evtSource.onmessage = (e) => {
             try {
+
                 let data = JSON.parse(e.data);
+                console.log(e.data);
                 this.handleGetNewBuildResponse(data.ProjectName, data.AllBuilds);
             } catch (e) {
                 // console.log(e);

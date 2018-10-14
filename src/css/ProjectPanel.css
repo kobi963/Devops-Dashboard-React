@@ -30,16 +30,15 @@
 }
 
 .build-now-button{
-    padding: 10px;
-    margin-right: 10px;
-    background-color: #cbc2b9;
-    border-radius: 5px;
+    color: white;
+    padding: 2px;
+    font-size: 13px;
 }
 
 .abort-build-button{
-    padding: 10px;
-    background-color: #cbc2b9;
-    border-radius: 5px;
+    color:white;
+    padding: 2px;
+    font-size: 13px;
 }
 
 .project-searchBar{
