@@ -12,7 +12,7 @@ class StatisticsElement extends Component {
 
     render() {
         return (
-            <div className={'statistics-element-container'}>
+            <div className='statistics-element-container'>
                 <div className='statistics-element'>
                     <div className='statistics-element-header-container'>
                         <header className='statistics-element-header'>{this.state.header}</header>

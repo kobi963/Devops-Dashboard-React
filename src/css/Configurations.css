@@ -1,3 +1,9 @@
+.main-configurations-container{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
 .left-close-button{
     font-size: 30px;
 }
@@ -17,10 +23,11 @@
     align-self: center;
 }
 .body-container{
-
+    width: 100%;
 }
 
 .element-container{
+    width: 100%;
     display: flex;
     flex-direction: row;
     padding: 5px;
@@ -32,7 +39,7 @@
 }
 
 .element-input{
-    width: 500px;
+    width: 100%;
     background-image: linear-gradient(to right, #000, #000);
     background-position: 5px calc(100% - 5px);
     background-size: calc(100% - 10px) 1.5px;

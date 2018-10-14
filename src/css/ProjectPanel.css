@@ -1,9 +1,8 @@
 .project-panel-container{
-    width: 100%;
+    width: 86%;
     padding: 10px;
     background-color: #a89f99;
     border-radius: 15px;
-
 }
 
 .project-panel-container-domain{

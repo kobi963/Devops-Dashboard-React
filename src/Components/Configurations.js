@@ -51,7 +51,7 @@ class Configurations extends Component {
         return(
             <Popup trigger={<button className="logout-btn"> Settings </button>} modal>
                 {close => (
-                    <div>
+                    <div className='main-configurations-container'>
                         <a className="left-close-button" onClick={close}>
                             &times;
                         </a>

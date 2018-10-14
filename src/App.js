@@ -50,6 +50,8 @@ class App extends Component {
 
 let styles = {
   app: {
+      height: '100%',
+      width: '100%',
       alignItems: 'center',
       justifyContent: 'center',
       flex: 1

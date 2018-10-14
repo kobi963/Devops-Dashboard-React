@@ -2,12 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="effc0990-06a4-48bc-a1be-25c2fb610fee" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/MainScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/MainScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Configurations.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Configurations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Microsevice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Microsevice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/StatisticsElement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/StatisticsElement.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/BuildHistory.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/BuildHistory.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/Configurations.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Configurations.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/MainSecreen.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MainSecreen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/MemberInfoAndControl.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/MemberInfoAndControl.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/Pipeline.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/Pipeline.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/ProjectPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/ProjectPanel.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/StatisticsElement.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/StatisticsElement.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainScreen.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/MainScreen.js">
+      <file leaf-file-name="MainSecreen.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/MainSecreen.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+            <state relative-caret-position="196">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Microsevice.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Microsevice.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="188" column="33" lean-forward="true" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -33,38 +49,80 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainSecreen.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/MainSecreen.css">
+      <file leaf-file-name="Configurations.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/Configurations.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="308">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pipeline.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Configurations.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Configurations.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="656">
+              <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildHistory.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/BuildHistory.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pipeline.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/css/Pipeline.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            <state relative-caret-position="238">
+              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MemberInfoAndControl.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/MemberInfoAndControl.css">
+      <file leaf-file-name="StatisticsElement.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/StatisticsElement.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="744">
-              <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
+            <state relative-caret-position="57">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectPanel.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/ProjectPanel.css">
+      <file leaf-file-name="PreferencesManager.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/PreferencesManager.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="427">
+              <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Environment.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statistics.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Statistics.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,7 +139,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>`</find>
       <find>appl</find>
       <find>microservic</find>
       <find>microservice</find>
@@ -111,6 +168,7 @@
       <find>TriggerBuildClient</find>
       <find>console.log</find>
       <find>height</find>
+      <find>width</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,18 +182,13 @@
         <option value="$PROJECT_DIR$/src/css/Popip.css" />
         <option value="$PROJECT_DIR$/src/Components/Popup.js" />
         <option value="$PROJECT_DIR$/src/css/Popup.css" />
-        <option value="$PROJECT_DIR$/src/css/Configurations.css" />
         <option value="$PROJECT_DIR$/src/Managers/SessionManager/SessionManager.js" />
         <option value="$PROJECT_DIR$/src/Utils/AppEnums.js" />
         <option value="$PROJECT_DIR$/src/Components/Pipeline.js" />
-        <option value="$PROJECT_DIR$/src/css/MemberInfoAndControl.css" />
         <option value="$PROJECT_DIR$/src/css/Login.css" />
         <option value="$PROJECT_DIR$/src/Components/BuildHistory.js" />
         <option value="$PROJECT_DIR$/src/css/Statistics.css" />
         <option value="$PROJECT_DIR$/src/css/Tabs.css" />
-        <option value="$PROJECT_DIR$/src/css/BuildHistory.css" />
-        <option value="$PROJECT_DIR$/src/css/StatisticsElement.css" />
-        <option value="$PROJECT_DIR$/src/Components/StatisticsElement.js" />
         <option value="$PROJECT_DIR$/src/Components/StatisticsGit.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/Components/BuildHistoryElement.js" />
@@ -150,18 +203,23 @@
         <option value="$PROJECT_DIR$/src/Managers/PreferencesManager/PreferencesManager.js" />
         <option value="$PROJECT_DIR$/src/Utils/HttpClient.js" />
         <option value="$PROJECT_DIR$/src/Components/ProjectPanel.js" />
-        <option value="$PROJECT_DIR$/src/Components/Configurations.js" />
         <option value="$PROJECT_DIR$/src/Components/Statistics.js" />
         <option value="$PROJECT_DIR$/src/Components/MemberInfoAndControl.js" />
         <option value="$PROJECT_DIR$/src/Components/Login.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/PipelineElement.js" />
-        <option value="$PROJECT_DIR$/src/Components/Microsevice.js" />
-        <option value="$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js" />
-        <option value="$PROJECT_DIR$/src/css/ProjectPanel.css" />
         <option value="$PROJECT_DIR$/src/Components/MainScreen.js" />
-        <option value="$PROJECT_DIR$/src/css/MainSecreen.css" />
+        <option value="$PROJECT_DIR$/src/Components/StatisticsElement.js" />
+        <option value="$PROJECT_DIR$/src/css/StatisticsElement.css" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/css/MemberInfoAndControl.css" />
         <option value="$PROJECT_DIR$/src/css/Pipeline.css" />
+        <option value="$PROJECT_DIR$/src/css/ProjectPanel.css" />
+        <option value="$PROJECT_DIR$/src/css/Configurations.css" />
+        <option value="$PROJECT_DIR$/src/Components/Configurations.js" />
+        <option value="$PROJECT_DIR$/src/css/BuildHistory.css" />
+        <option value="$PROJECT_DIR$/src/Components/Microsevice.js" />
+        <option value="$PROJECT_DIR$/src/css/MainSecreen.css" />
+        <option value="$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js" />
       </list>
     </option>
   </component>
@@ -332,7 +390,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124714000" />
+    <option name="totallyTimeSpent" value="126821000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="978" extended-state="6" />
@@ -343,7 +401,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291714" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -351,11 +409,23 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16757083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291714" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50030136" side_tool="true" weight="0.32993197" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4996986" weight="0.32993197" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -363,19 +433,19 @@
       <window_info id="npm" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21760097" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291714" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4996986" weight="0.32993197" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50030136" side_tool="true" weight="0.32993197" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21760097" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,6 +455,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/css/StatisticsElement.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MainScreen.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -480,17 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/Login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="938">
-          <caret line="148" column="19" selection-start-line="148" selection-start-column="19" selection-end-line="148" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/Statistics.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -501,28 +571,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/BuildHistory.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/StatisticsElement.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/StatisticsGit.js" />
-    <entry file="file://$PROJECT_DIR$/src/Components/StatisticsElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -559,8 +608,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/PipelineElement.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        <state relative-caret-position="56">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -581,16 +630,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Managers/BuildManager/Build.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Managers/BuildManager/BuildManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Managers/BuildManager/BuildManager.js" />
     <entry file="file://$PROJECT_DIR$/src/Managers/SessionManager/SessionManager.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -617,8 +657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/ProjectPanel.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="181">
+          <caret line="21" column="39" lean-forward="true" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -639,35 +679,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Statistics.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="86" column="9" lean-forward="true" selection-start-line="86" selection-start-column="9" selection-end-line="86" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Configurations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="117" column="40" selection-start-line="117" selection-start-column="40" selection-end-line="117" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Utils/HttpClient.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="582">
           <caret line="61" column="52" lean-forward="true" selection-start-line="61" selection-start-column="52" selection-end-line="61" selection-end-column="52" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/demoComponent.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/PipelineElement.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -680,23 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
           <caret line="50" column="38" lean-forward="true" selection-start-line="50" selection-start-column="38" selection-end-line="50" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Microsevice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="42" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -714,23 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="602">
-          <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/PreferencesManager.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Domain.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="749">
@@ -738,20 +721,6 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/ProjectPanel.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/MemberInfoAndControl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="744">
-          <caret line="54" column="22" selection-start-line="54" selection-start-column="22" selection-end-line="54" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -765,17 +734,120 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/MainSecreen.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/StatisticsElement.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="182">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/ProjectPanel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/StatisticsElement.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/css/Pipeline.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Statistics.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Configurations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="131" column="30" selection-start-line="131" selection-start-column="30" selection-end-line="131" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/BuildHistory.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/MemberInfoAndControl.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/Configurations.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Microsevice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="188" column="33" lean-forward="true" selection-start-line="188" selection-start-column="33" selection-end-line="188" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/MainSecreen.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/PreferencesManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Managers/PreferencesManager/Environment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
